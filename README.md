@@ -1,2 +1,2 @@
-# patika_Frontend_Path
+# Patika Frontend Path
 I'm collecting all my Patika work to here
