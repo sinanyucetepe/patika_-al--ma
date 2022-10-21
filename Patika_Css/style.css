@@ -1,0 +1,45 @@
+/* h2 {
+    color: purple;
+    font-size:64px ;
+}
+p{
+    color: green;
+    font-size: 20px;
+} */
+/* class -> .text-red {}*/
+/*id -> #id-info {}      */
+h1,h2,h3,h4,h5,h6 {
+        color: #866e6e;
+
+}
+h1 {
+    font-size: 30px;
+}
+p{
+    font-size: 20px;
+}
+
+#first-article {
+    font-size: 40px;
+}
+
+.text-red {
+    color:red;
+}
+.fs-14{
+    font-size: 14px;
+}
+.fs-20{
+    font-size: 20px;
+}
+.fs-30{
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
