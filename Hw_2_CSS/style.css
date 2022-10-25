@@ -1,0 +1,47 @@
+.image-fix{  /*icon image centered */
+    margin: auto;
+    display: block;
+}
+.container{ /* container structure defined*/
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 100px;
+    background-color: rgb(228, 222, 222);
+}
+.text-center{ /* text position centered and  font-size adjusted*/
+    font-size: 16px;
+    text-align: center;
+}
+.search-bar{  /*google search bar location adjusted*/
+    width: 317px;
+    height: 21px;
+    margin-left:42%;
+}
+.center-button{  /* google search and feeling lucky buttons position adjusted*/
+    text-align:center;
+}
+.box1{ /* for first box */
+    text-align: center;
+    
+    background-color:#7EE5DA;
+    float:left;
+    width: 35%;
+    height: 95px;
+}
+.box2{ /* for second box */
+    text-align: center;
+    float:left;
+    background-color:rgb(112, 204, 194);
+    width: 30%;
+    height: 95px;
+}
+.box3{ /* for third box */
+    text-align: center;
+    float:left;
+    background-color:rgb(98, 179, 170);
+    width: 35%;
+    height: 95px;
+}
+p{ /* paragraphs are position centered*/
+    text-align: center;
+}
