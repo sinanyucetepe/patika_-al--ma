@@ -18,26 +18,26 @@ if (examGrade>=0 && examGrade<=100) {
     textInfo= smile
     info.classList.add(`text-primary`)
     
-if (examGrade<=100 && examGrade>=90 ) {
-    textInfo+="AA"
-}else if (examGrade<90 && examGrade>=85 ){
-    textInfo+="BA"
-}else if (examGrade<85 && examGrade>=80){
-    textInfo+="BB"
-}else if (examGrade<80 &&examGrade>=75){
-    textInfo+="CB"}
-else if (examGrade<75 && examGrade>=70){
-    textInfo+="CC"
-}else if (examGrade<70 && examGrade>=65){
-    textInfo+="CB"
-}else if (examGrade<65 && examGrade>=60){
-    textInfo+="DD"
-}else if (examGrade<60 && examGrade>=50){
-    textInfo+="FD"
-}else if (examGrade<50 &&examGrade>=0){
-    textInfo=`${frown} FF`
-    info.classList.remove(`text-primary`)
-    info.classList.add(`text-danger`)
+    if (examGrade<=100 && examGrade>=90 ) {
+        textInfo+="AA"
+    }else if (examGrade<90 && examGrade>=85 ){
+        textInfo+="BA"
+    }else if (examGrade<85 && examGrade>=80){
+        textInfo+="BB"
+    }else if (examGrade<80 &&examGrade>=75){
+        textInfo+="CB"}
+    else if (examGrade<75 && examGrade>=70){
+        textInfo+="CC"
+    }else if (examGrade<70 && examGrade>=65){
+        textInfo+="CB"
+    }else if (examGrade<65 && examGrade>=60){
+        textInfo+="DD"
+    }else if (examGrade<60 && examGrade>=50){
+        textInfo+="FD"
+    }else if (examGrade<50 &&examGrade>=0){
+        textInfo=`${frown} FF`
+        info.classList.remove(`text-primary`)
+        info.classList.add(`text-danger`)
 }
 console.log(textInfo)
 info.innerHTML= ` your exam point is ${examGrade}\n -------------------------- ${textInfo} `
