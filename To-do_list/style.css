@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+} 
+.container{            /*for name of top  */
+    
+    padding: 50px 40px;
+    color: black;
+    text-align: center;
+    font-size: larger;
+    
+}
+.input{
+    width: 50%;
+    float: left;
+    background: rgba(95, 56, 6, 0.171);
+    text-align: left;
+    border: black;
+    margin-left: 20%;
+    
+}
+ul li.checked{
+    background: rgba(6, 20, 139, 0.616);
+    color: #fff;
+    text-decoration: line-through;
+}
+.close{
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 16px 12px 16px;
+    cursor: pointer;
+    
+}
+#deleteAll{
+    position: absolute;
+    right: 5px;
+    top: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
